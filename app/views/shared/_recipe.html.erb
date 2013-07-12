@@ -1,0 +1,10 @@
+  <li class="row-fluid well">
+    <div class="span12">
+      <h2><%= recipe.name %></h2>
+      <span class="pull-right">
+        <%= link_to 'Show', recipe, :class=>"btn btn-info" %>
+        <%= link_to 'Edit', edit_recipe_path(recipe), :class=>"btn btn-warning" %>
+        <%= link_to 'Destroy', recipe, method: :delete, data: { confirm: 'Are you sure?' }, :class=>"btn btn-danger" %>
+      </span>
+    </div>
+  </li>
