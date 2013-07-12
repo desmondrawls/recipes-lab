@@ -1,4 +1,5 @@
 RecipesLab::Application.routes.draw do
+
   resources :recipes
 
 
